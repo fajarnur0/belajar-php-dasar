@@ -20,6 +20,10 @@
     th {
         background-color: yellow;
     }
+
+    .header {
+        background-color: green;
+    }
     </style>
 </head>
 
@@ -31,8 +35,12 @@
     $univ = "Universitas Siliwangi";
     $umur = 19;
     ?>
-    <h1>Biodata</h1>
+
     <table>
+        <tr id="header">
+            <th colspan="2">Biodata</th>
+        </tr>
+
         <tr>
             <th>Nama: </th>
             <td><?php echo $nama;?></td>
